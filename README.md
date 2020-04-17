@@ -24,7 +24,7 @@ Index
 Requirements
 ------------
 
-* Java 1.7+
+* Java 1.8+
 
 Configuration
 -------------
@@ -56,8 +56,6 @@ If you're using the shutdown hook `SERVLET_CONTEXT` as defined above, you'll nee
 ```
 
 ### Run-time variables
-
-As of version `1.3` you can set run-time variables. For now you can only add an extra S3 folder.
 
 Just use `CustomData.extraS3Folder.set( "extra_folder_name" );` somewhere in your code before the upload occurs. You can always change this value during run-time and it will be picked up on the next upload. set to `null` to ignore.
 
@@ -144,8 +142,10 @@ Libraries
 ---------
 
 This project uses the following libraries:
-* `com.amazonaws:aws-java-sdk:1.11.7`
+* `com.amazonaws:aws-java-sdk:1.11.754`
 * `ch.qos.logback:logback-classic:1.2.3`
-* `com.google.guava:guava:18.0`
-* `javax.servlet:servlet-api:2.4` (scope provided)
-* `org.jetbrains:annotations:15.0` (scope provided)
+* `com.google.guava:guava:28.2-jre`
+* `javax.servlet:javax.servlet-api:4.0.1` (scope provided)
+* `org.jetbrains:annotations:18.0.0` (scope provided)
+* `com.squareup.okhttp3:okhttp:3.14.2`
+* `com.jayway.jsonpath:json-path:2.4.0`
