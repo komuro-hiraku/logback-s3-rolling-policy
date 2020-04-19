@@ -3,10 +3,10 @@
   <groupId>ch.qos.logback</groupId>
   <artifactId>logback-s3-rolling-policy</artifactId>
   <versioning>
-    <release>0.0.2</release>
+    <release>0.0.3</release>
     <versions>
-      <version>0.0.2</version>
+      <version>0.0.3</version>
     </versions>
-    <lastUpdated>20200407080625</lastUpdated>
+    <lastUpdated>20200419150721</lastUpdated>
   </versioning>
 </metadata>
